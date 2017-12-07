@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<company>
+  <title>Lucas Demo</title>
+  <based-in>Curitiba, Brazil</based-in>
+  <founding-date></founding-date>
+  <website></website>
+  <press-contact>
+    <!-- Mail address -->
+	lukbebalduke@outlook.com
+  </press-contact>
+
+  <!-- Google analytics ID: -->
+  <analytics></analytics>
+
+  <phone>55 041 992228104</phone>
+  <address>
+    <line>
+      <!-- Street -->
+	  R. Prof. Pedro Viriato Parigot de Souza, 3901 - Campina do Siqueira
+    </line>
+    <line>
+      <!-- City -->
+	  Curitiba
+    </line>
+    <line>
+      <!-- Country -->
+	  Brazil
+    </line>
+  </address>
+
+  <socials>
+    <social>
+      <name></name>
+      <link>
+        <!-- URL starting with http or https -->
+		https://www.facebook.com/lukbebalduke
+      </link>
+    </social>
+  </socials>
+
+  <description></description>
+
+  <!-- Choose between a single block: -->
+  <history>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <trailers>
+    <trailer>
+      <name></name>
+
+      <!-- Pick one: -->
+      <youtube>
+        <!-- Video ID only, not the full URL -->
+      </youtube>
+      <vimeo>
+        <!-- Video ID only, not the full URL -->
+      </vimeo>
+    </trailer>
+  </trailers>
+
+  <awards>
+    <award>
+      <description>Best game Global Game Jam PUCPR 2015</description>
+      <info>Ninja Sukafu II won the best game created in the PUCPR seed Global Game Jam</info>
+    </award>
+	<award>
+      <description>Best game Global Game Jam PUCPR 2016</description>
+      <info>Sukafu Neon won The best game created in the PUCPR seed Global Game Jam</info>
+    </award>
+	<award>
+      <description>Best student game SBGames 2017</description>
+      <info>WildGlory won the student game in SBGames 2017 festival</info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals>
+
+  <credits>
+    <credit>
+      <person></person>
+      <role></role>
+
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name></name>
+
+      <!-- Pick one: -->
+      <mail></mail>
+      <link></link>
+    </contact>
+  </contacts>
+</company>
