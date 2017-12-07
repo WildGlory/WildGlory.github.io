@@ -1,47 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<company>
-  <title>Lucas Demo</title>
-  <based-in>Curitiba, Brazil</based-in>
-  <founding-date></founding-date>
-  <website></website>
-  <press-contact>
-    <!-- Mail address -->
-	lukbebalduke@outlook.com
-  </press-contact>
+<product>
+  <title>KNOCKBACKY</title>
+  <release-date>18 de Fevereiro, 1999</release-date>
+  <website>knockbacky.github.io</website>
 
-  <!-- Google analytics ID: -->
-  <analytics></analytics>
+  <!-- Link to request press copy: -->
+  <press-copy-request></press-copy-request>
 
-  <phone>55 041 992228104</phone>
-  <address>
-    <line>
-      <!-- Street -->
-	  R. Prof. Pedro Viriato Parigot de Souza, 3901 - Campina do Siqueira
-    </line>
-    <line>
-      <!-- City -->
-	  Curitiba
-    </line>
-    <line>
-      <!-- Country -->
-	  Brazil
-    </line>
-  </address>
+  <platforms>
+    <platform>
+      <name>PC - Steam</name>
+      <link>http://steam.com/</link>
+    </platform>
+  </platforms>
 
-  <socials>
-    <social>
-      <name></name>
-      <link>
-        <!-- URL starting with http or https -->
-		https://www.facebook.com/lukbebalduke
-      </link>
-    </social>
-  </socials>
+  <prices>
+    <price>
+      <currency>US$</currency>
+      <value>3,99</value>
+    </price>
+  </prices>
 
-  <description></description>
+  <description>Use explosion immunity and a ROCKET LAUNCHER to escape the prison, making explosive and risky moves across the level!
+</description>
 
   <!-- Choose between a single block: -->
-  <history>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</history>
+  <history>KNOCKBACKY was dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</history>
 
   <!-- Or multiple blocks: -->
   <!--
@@ -53,6 +37,15 @@
   </histories>
   -->
 
+  <features>
+    <feature>- More than 40 levels</feature>
+	<feature>- Speed Runnable</feature>
+	<feature>- Local COOP game mode</feature>
+	<feature>- Local VERSUS game mode</feature>
+	<feature>- Unique BOSS FIGHTS</feature>
+	<feature>- Unlock new Prisoners</feature>
+  </features>
+
   <trailers>
     <trailer>
       <name></name>
@@ -60,49 +53,60 @@
       <!-- Pick one: -->
       <youtube>
         <!-- Video ID only, not the full URL -->
+		oViXCXsWstM
       </youtube>
-      <vimeo>
+    </trailer>
+	<trailer>
+      <name></name>
+
+      <!-- Pick one: -->
+      <youtube>
         <!-- Video ID only, not the full URL -->
-      </vimeo>
+		dWbZVdXTLro
+      </youtube>
+    </trailer>
+	<trailer>
+      <name></name>
+
+      <!-- Pick one: -->
+      <youtube>
+        <!-- Video ID only, not the full URL -->
+		Lyk3-r3qvMQ
+      </youtube>
     </trailer>
   </trailers>
 
   <awards>
     <award>
-      <description>Best game Global Game Jam PUCPR 2015</description>
-      <info>Ninja Sukafu II won the best game created in the PUCPR seed Global Game Jam</info>
-    </award>
-	<award>
-      <description>Best game Global Game Jam PUCPR 2016</description>
-      <info>Sukafu Neon won The best game created in the PUCPR seed Global Game Jam</info>
-    </award>
-	<award>
-      <description>Best student game SBGames 2017</description>
-      <info>WildGlory won the student game in SBGames 2017 festival</info>
+      <description>Best game my son ever made 2017</description>
+      <info>My mother said Knockbacky is the greatest game I've ever created</info>
     </award>
   </awards>
 
-  <quotes>
-    <quote>
-      <description></description>
-      <name></name>
-      <website></website>
-      <link></link>
-    </quote>
-  </quotes>
-
   <additionals>
     <additional>
-      <title></title>
-      <description></description>
-      <link></link>
+      <title>Speed Run Records</title>
+      <description>Records registered in Knockbacky speed run.</description>
+      <link>https://www.speedrun.com/</link>
+    </additional>
+	<additional>
+      <title>Reddit Forum</title>
+      <description>The forum where comunnity discuss about Knockbacky</description>
+      <link>reddit.com</link>
     </additional>
   </additionals>
 
   <credits>
     <credit>
-      <person></person>
-      <role></role>
+      <person>Lucas Demo</person>
+      <role>Game Director/ Programmer, Artist, Animator, Game designer and SFX</role>
+
+      <!-- Optional: -->
+      <website>https://www.behance.net/Lukbebalduke</website>
+    </credit>
+	<credit>
+      <person>Diego Pontes</person>
+      <role>Game designer and Musician</role>
 
       <!-- Optional: -->
       <website></website>
@@ -111,11 +115,11 @@
 
   <contacts>
     <contact>
-      <name></name>
+      <name>Lucas Demo</name>
 
       <!-- Pick one: -->
-      <mail></mail>
+      <mail>lukbebalduke@outlook.com</mail>
       <link></link>
     </contact>
   </contacts>
-</company>
+</product>
