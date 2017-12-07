@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-  <title>KNOCKBACKY</title>
-  <release-date>18 de Fevereiro, 1999</release-date>
-  <website>knockbacky.github.io</website>
+  <title>Wild Glory</title>
+  <release-date>3 de Fevereiro, 2017</release-date>
+  <website>wildglory.github.io</website>
 
   <!-- Link to request press copy: -->
   <press-copy-request></press-copy-request>
@@ -17,15 +17,16 @@
   <prices>
     <price>
       <currency>US$</currency>
-      <value>3,99</value>
+      <value>2,99</value>
     </price>
   </prices>
 
-  <description>Use explosion immunity and a ROCKET LAUNCHER to escape the prison, making explosive and risky moves across the level!
-</description>
+  <description>Wild Glory is a brawler arena that supports up to eight gladiators in the arena! Use different types of weapons, hazards, bombs and even lions to conquer the crowd, and they might reward you with epic items!
+  Wild Glory é um brawler arena e party game que suporta até oito gladiadores dentro da arena! Use diferentes tipos de arma, armadilhas, bombas e até leões para conquistar a multidão, e eles podem te recompensar com itens épicos!</description>
 
   <!-- Choose between a single block: -->
-  <history>KNOCKBACKY was dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</history>
+  <history>Wild Glory was developed in six months by a group of five dedicated students from Curitiba – Brazil. The Project has been made in the game development laboratory from Pontifícia Universidade Católica do Paraná, and in its conclusion, it was submitted to the Brazilian games symposium festival of 2017. Later on, extremely grateful, the group of students received the Best Student Game AWARD! Catching a lot of attention and brand new passionate players!
+  Wild Glory foi desenvolvido ao longo de seis meses por um grupo de cinco estudantes dedicados de Curitiba – Brasil. O projeto foi construído no laboratório de jogos da Pontifícia Universidade Católica do Paraná, e na sua conclusão foi inscrito para o simpósio brasileiro de jogos de 2017. Mais tarde, com muita alegria, o grupo de estudantes recebeu o prêmio de melhor jogo de estudantes do festival! Conquistando muita atenção e novos jogadores apaixonados!</history>
 
   <!-- Or multiple blocks: -->
   <!--
@@ -38,12 +39,11 @@
   -->
 
   <features>
-    <feature>- More than 40 levels</feature>
-	<feature>- Speed Runnable</feature>
-	<feature>- Local COOP game mode</feature>
-	<feature>- Local VERSUS game mode</feature>
-	<feature>- Unique BOSS FIGHTS</feature>
-	<feature>- Unlock new Prisoners</feature>
+    <feature>- Several unique weapons!</feature>
+	<feature>- Supports up to eight players!</feature>
+	<feature>- Keyboard and Gamepad support!</feature>
+	<feature>- FIVE unique gamemodes, including COOP!</feature>
+	<feature>- LIONS!</feature>
   </features>
 
   <trailers>
@@ -53,7 +53,7 @@
       <!-- Pick one: -->
       <youtube>
         <!-- Video ID only, not the full URL -->
-		oViXCXsWstM
+		aIO6_ET46zo
       </youtube>
     </trailer>
 	<trailer>
@@ -62,63 +62,68 @@
       <!-- Pick one: -->
       <youtube>
         <!-- Video ID only, not the full URL -->
-		dWbZVdXTLro
-      </youtube>
-    </trailer>
-	<trailer>
-      <name></name>
-
-      <!-- Pick one: -->
-      <youtube>
-        <!-- Video ID only, not the full URL -->
-		Lyk3-r3qvMQ
+		6_RowL0Jwsw
       </youtube>
     </trailer>
   </trailers>
 
   <awards>
     <award>
-      <description>Best game my son ever made 2017</description>
-      <info>My mother said Knockbacky is the greatest game I've ever created</info>
+      <description>Best Student Game - SBGAMES 2017</description>
+      <info>Best Student Game - SBGAMES 2017.</info>
     </award>
   </awards>
 
-  <additionals>
-    <additional>
-      <title>Speed Run Records</title>
-      <description>Records registered in Knockbacky speed run.</description>
-      <link>https://www.speedrun.com/</link>
-    </additional>
-	<additional>
-      <title>Reddit Forum</title>
-      <description>The forum where comunnity discuss about Knockbacky</description>
-      <link>reddit.com</link>
-    </additional>
-  </additionals>
-
   <credits>
-    <credit>
+  
+	<credit>
+      <person>Lucas Bressan</person>
+      <role>Director, Artist and Game Designer</role>
+
+      <!-- Optional: -->
+      <website>https://gekkosdf.wixsite.com/gekko</website>
+    </credit>
+  
+	<credit>
+      <person>Leonardo Lima</person>
+      <role>Music and SFX</role>
+
+      <!-- Optional: -->
+      <website>https://soundcloud.com/leonardolimasoundworks</website>
+    </credit>
+  
+	<credit>
       <person>Lucas Demo</person>
-      <role>Game Director/ Programmer, Artist, Animator, Game designer and SFX</role>
+      <role>Programmer and Game Designer</role>
 
       <!-- Optional: -->
       <website>https://www.behance.net/Lukbebalduke</website>
     </credit>
+  
 	<credit>
-      <person>Diego Pontes</person>
-      <role>Game designer and Musician</role>
+      <person>Jacqueline Mörking</person>
+      <role>Artist</role>
 
       <!-- Optional: -->
-      <website></website>
+      <website>https://www.artstation.com/jacqkruk</website>
     </credit>
+  
+    <credit>
+      <person>Glenda Mörking</person>
+      <role>Artist</role>
+
+      <!-- Optional: -->
+      <website>https://www.artstation.com/jacqkruk</website>
+    </credit>
+	
   </credits>
 
   <contacts>
-    <contact>
-      <name>Lucas Demo</name>
+	<contact>
+      <name>Wild Glory Contact</name>
 
       <!-- Pick one: -->
-      <mail>lukbebalduke@outlook.com</mail>
+      <mail>Wildglorygame@gmail.com</mail>
       <link></link>
     </contact>
   </contacts>
