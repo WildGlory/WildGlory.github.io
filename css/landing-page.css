@@ -110,6 +110,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .section-heading {
   margin-bottom: 30px;
+  text-shadow: 2px 2px 0.45px rgba(0, 0, 0, 0.7);
 }
 
 .section-heading-spacer {
