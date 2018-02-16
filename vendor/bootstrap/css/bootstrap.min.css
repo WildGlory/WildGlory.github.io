@@ -634,7 +634,7 @@ img.img-fluid-overlay
 }
 
 div.fixed-icons{
-	
+	max-width: 15%;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -642,13 +642,13 @@ div.fixed-icons{
 	
 	position: fixed;
 	top: 0px;
-	left: 91%;
+	left: 85%;
 	width: 152px;
 	float: right;
 }
 
 div.fixed-banner{
-	
+	max-width: 15%;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -656,7 +656,7 @@ div.fixed-banner{
 	
 	position: fixed;
 	top: 0px;
-	left: 4%;
+	left: 5%;
 	width: 25%;
 	float: right;
 
