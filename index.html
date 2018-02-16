@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author: Manalith Studios" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>WILD GLORY</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,63 +21,57 @@
     <link href="css/landing-page.css" rel="stylesheet">
 
   </head>
-
+  
   <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <!-- Header -->
     <header class="intro-header">
       <div class="container">
         <div class="intro-message">
-          <h1>Landing Page</h1>
-          <h3>A Template by Start Bootstrap</h3>
+		  
+		  <img class="img-fluid-logo" src="img/logo_high.png" alt="Logo">
+		  
+		 <!-- 16:9 aspect ratio -->
+			 <div class="video-overlay">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LWnwR_pcR0k?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		  <hr class="intro-divider">
+          <h3>Fight against your friends to <b class="b-yellow">CONQUER THE CROWD</b>  and become the most acclaimed champion!</h3>
           <hr class="intro-divider">
           <ul class="list-inline intro-social-buttons">
             <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-twitter fa-fw"></i>
-                <span class="network-name">Twitter</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-github fa-fw"></i>
-                <span class="network-name">Github</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-linkedin fa-fw"></i>
-                <span class="network-name">Linkedin</span>
-              </a>
+              <a href="facebook.com/wildglorygame" class="btn btn-secondary btn-lg">
+                <i class="fa fa-facebook fa-fw"></i>
+                <span class="network-name">STAY TUNNED!</span>
+              </a>		  
             </li>
           </ul>
         </div>
       </div>
     </header>
 
+	<!-- Icons -->
+	<div class="fixed-icons">
+	<img class="img-fluid-social" src="img/social_icon_chain.png" alt="Social Icons"> </a>
+		<a href="https://www.facebook.com/wildglorygame"> <img class="img-fluid-social" onmouseover="socialiconOpacity1(this)" onmouseout="socialiconOpacity0(this)" src="img/social_icon_2.png" alt="Social Icons"> </a>
+		<a href="https://twitter.com/Wild_Glory_game"> <img class="img-fluid-social" onmouseover="socialiconOpacity1(this)" onmouseout="socialiconOpacity0(this)" src="img/social_icon_1.png" alt="Social Icons"> </a>
+	</div>
+	
+	<div class="fixed-banner">
+		<img class="img-fluid-banner" src="img/social_banner.png" alt="SBGAMES BEST STUDENT GAME 2017"> </a>
+	</div>
+	
+	<script>
+	function socialiconOpacity1(x) {
+		x.style.opacity = 1;
+	}
+
+	function socialiconOpacity0(x) {
+		x.style.opacity = 0.85;
+	}
+	</script>
+	
     <!-- Page Content -->
     <section class="content-section-a">
 
@@ -86,13 +80,18 @@
           <div class="col-lg-5 ml-auto">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-            <p class="lead">A special thanks to
-              <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>
-              for providing the photographs that you see in this template. Visit their website to become a member.</p>
+            <h2 class="section-heading">Battle against your friends!</h2>
+            <p class="lead">Use many <b class="b-yellow">weapons, hazards and bombs</b> to finish your enemies in the Arena! </p>
+			<p class="lead">As the crowd gets excited they shall drop items and even release the lions! </p>
           </div>
           <div class="col-lg-5 mr-auto">
-            <img class="img-fluid" src="img/ipad.png" alt="">
+		  
+			<div class="img-overlay">
+                <img class="img-fluid-overlay" src="img/borderpng.png" alt="">
+            </div>
+			
+            <img class="img-fluid-ante-overlay" src="img/GIF01_WILDGLORY.gif" alt="">
+			
           </div>
         </div>
 
@@ -108,12 +107,24 @@
           <div class="col-lg-5 mr-auto order-lg-2">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-            <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by
-              <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+            <h2 class="section-heading">Unique game modes!</h2>
+			<p class="lead">Features <b class="b-yellow">five</b> differents game modes</p>
+            <p class="lead"> 
+			
+			<li class="li_lead"><b class="b-yellow">Classic Arena!</b></li> 
+			<li class="li_lead">COOP Lion Attack</li> 
+			<li class="li_lead">Sharpshootert</li> 
+			<li class="li_lead">Explosive Soccer</li> 
+			<li class="li_lead">Hammer Flag</li> 
+			
+			</p>
           </div>
           <div class="col-lg-5 ml-auto order-lg-1">
-            <img class="img-fluid" src="img/dog.png" alt="">
+            <div class="img-overlay">
+                <img class="img-fluid-overlay" src="img/borderpng.png" alt="">
+            </div>
+			
+            <img class="img-fluid-ante-overlay" src="img/GIF02_WILDGLORY.gif" alt="">
           </div>
         </div>
 
@@ -131,13 +142,17 @@
           <div class="col-lg-5 ml-auto">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-            <p class="lead">This template features the 'Lato' font, part of the
-              <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as
-              <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+            <h2 class="section-heading">The more the better!</h2>
+            <p class="lead">Wild Glory is a local party game where you can play with up to <b class="b-yellow">EIGHT</b> players!</p>
+			<p class="lead">Also, <b class="b-yellow">Gladius Bots</b> are always available! (But of course you have friends... don't you?)</p>
+		
           </div>
           <div class="col-lg-5 mr-auto ">
-            <img class="img-fluid" src="img/phones.png" alt="">
+            <div class="img-overlay">
+                <img class="img-fluid-overlay" src="img/borderpng.png" alt="">
+            </div>
+			
+            <img class="img-fluid-ante-overlay" src="img/GIF03_WILDGLORY.gif" alt="">
           </div>
         </div>
 
@@ -153,28 +168,20 @@
 
         <div class="row">
           <div class="col-lg-6 my-auto">
-            <h2>Connect to Start Bootstrap:</h2>
+            <h2>FOLLOW US!</h2>
           </div>
           <div class="col-lg-6 my-auto">
             <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
-                <a href="#" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="btn btn-secondary btn-lg">
-                  <i class="fa fa-linkedin fa-fw"></i>
-                  <span class="network-name">Linkedin</span>
-                </a>
-              </li>
+              <a href="https://twitter.com/Wild_Glory_game" class="btn btn-secondaryT btn-lg">
+                <i class="fa fa-twitter fa-fw"></i>
+                <span class="network-name">FOLLOW!</span>
+              </a>	
+			<a href="facebook.com/wildglorygame" class="btn btn-secondary btn-lg">
+                <i class="fa fa-facebook fa-fw"></i>
+                <span class="network-name">AND SHARE!</span>
+              </a>				  
+            </li>
             </ul>
           </div>
         </div>
@@ -189,23 +196,16 @@
     <footer>
       <div class="container">
         <ul class="list-inline">
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
           <li class="list-inline-item">
-            <a href="#">Home</a>
+            <a href="https://wildglory.github.io/press/build/">Press Kit</a>
           </li>
           <li class="footer-menu-divider list-inline-item">&sdot;</li>
           <li class="list-inline-item">
-            <a href="#about">About</a>
-          </li>
-          <li class="footer-menu-divider list-inline-item">&sdot;</li>
-          <li class="list-inline-item">
-            <a href="#services">Services</a>
-          </li>
-          <li class="footer-menu-divider list-inline-item">&sdot;</li>
-          <li class="list-inline-item">
-            <a href="#contact">Contact</a>
+            <a href="https://www.facebook.com/wildglorygame/">Contact</a>
           </li>
         </ul>
-        <p class="copyright text-muted small">Copyright &copy; Your Company 2017. All Rights Reserved</p>
+        <p class="copyright text-muted small">Copyright &copy; Laje Studios 2018. All Rights Reserved</p>
       </div>
     </footer>
 
